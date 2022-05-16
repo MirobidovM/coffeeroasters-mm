@@ -1,0 +1,26 @@
+.nav__list {
+  @include reset-list;
+  @include flex;
+}
+
+.nav__item {
+  margin: 0;
+  padding: 0;
+  margin-left: 32px;
+}
+
+.nav__link {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration: none;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  border: none;
+  color: #83888f;
+}
+
+.nav__link-header:hover {
+  $color-dark: #333d4b;
+}

@@ -1,0 +1,154 @@
+.collection__container {
+  position: relative;
+  text-align: center;
+}
+
+.collection__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  margin: 0px;
+  margin-top: 136px;
+  text-align: center;
+  color: #83888f;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 72px;
+  margin: 0px;
+  margin-top: 136px;
+  text-align: center;
+  color: #83888f;
+}
+
+.collection__name::before {
+  content: "";
+  position: absolute;
+  width: 1211px;
+  height: 196px;
+  top: -100px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+}
+
+.collection__list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0px;
+  margin-top: -20px;
+}
+
+.collection__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 27px;
+  margin-bottom: 25px;
+  z-index: 1;
+}
+
+.collection__item:nth-child(4n),
+.collection__item:last-child {
+  margin-right: 0;
+}
+
+.collection__item-content {
+  text-align: center;
+}
+
+.collection__item-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0px;
+  text-align: center;
+  margin-top: 70px;
+  $color-dark: #333d4b;
+}
+
+.collection__item-discripton {
+  line-height: 26px;
+  margin-top: 24px;
+  width: 255px;
+  text-align: center;
+  $color-dark: #333d4b;
+}
+
+@media screen and (max-width: $tablet) {
+  .collection__name {
+    font-size: 96px;
+    line-height: 72px;
+  }
+
+  .collection__list {
+    flex-direction: column;
+    margin-top: -40px;
+  }
+
+  .collection__item {
+    flex-direction: row;
+    margin: 0;
+    margin-bottom: 47px;
+  }
+
+  .collection__item-discripton {
+    width: 282px;
+  }
+
+  .collection__item-content {
+    text-align: left;
+  }
+
+  .collection__name::before {
+    width: 689px;
+  }
+
+  .collection__item-title {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .collection__name {
+    font-size: 40px;
+    line-height: 72px;
+  }
+
+  .collection__name::before {
+    width: 100%;
+  }
+
+  .collection__list {
+    margin-top: 13px;
+  }
+
+  .collection__item {
+    flex-direction: column;
+  }
+
+  .collection__item-content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .collection__item-title {
+    text-align: center;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .collection__item-discripton {
+    text-align: center;
+  }
+}

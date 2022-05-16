@@ -1,0 +1,12 @@
+.social__link {
+  margin-left: 24px;
+  transition: 0.3s ease;
+}
+
+.social__link:hover {
+  opacity: 0.6;
+}
+
+.social__link:active {
+  opacity: 0.4;
+}

@@ -1,0 +1,17 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@mixin bg-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@mixin reset-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

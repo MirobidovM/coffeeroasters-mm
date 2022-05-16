@@ -1,0 +1,31 @@
+.benefits {
+  width: 100%;
+}
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 56px;
+}
+
+.benefits__form {
+  background: #f4f1eb;
+  margin-right: 23px;
+  border-radius: 8px;
+}
+
+.benefits__form:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.benefits__radio:checked + .benefits__div {
+  background-color: #0e8784;
+  color: #fff;
+}
+
+.benefits__div {
+  width: 228px;
+  padding: 32px 28px 84px;
+  border-radius: 8px;
+}

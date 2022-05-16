@@ -1,0 +1,35 @@
+.hero__container {
+  background-image: url(../img/about.jpg);
+  @include bg-img;
+  width: 1280px;
+  padding: 137px 85px;
+}
+
+.hero__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin: 0px;
+}
+
+.hero__discription {
+  line-height: 26px;
+  width: 445px;
+  margin: 0px;
+  margin-top: 24px;
+  color: #fefcf7;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+  .hero__container {
+    background-image: url(../../img/about@2x.jpg);
+  }
+}

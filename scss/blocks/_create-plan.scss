@@ -1,0 +1,25 @@
+.crate-plan {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  text-align: center;
+  color: #fefcf7;
+  padding: 16px 31px;
+  background: #0e8784;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.crate-plan:hover {
+  background: #66d2cf;
+  border-radius: 6px;
+}
+
+.crate-plan:active {
+  background: #66d2cf;
+  border-radius: 6px;
+  opacity: 0.4;
+}

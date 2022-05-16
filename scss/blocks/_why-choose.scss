@@ -1,0 +1,239 @@
+.why-choose__container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.why-choose__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+  margin-top: 100px;
+}
+
+.why-choose__discription {
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  width: 540px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-left: 370px;
+}
+
+.why-choose__container::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 1280px;
+  height: 577px;
+  background-color: #2c343e;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.why-choose__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 56px;
+  width: 1110px;
+  margin-left: 85px;
+  margin-right: 85px;
+  justify-content: center;
+}
+
+.why-choose__item {
+  width: 350px;
+  margin-right: 30px;
+  background-color: #0e8784;
+  border-radius: 8px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.why-choose__item:nth-child(3n),
+.why-choose__item:last-child {
+  margin-right: 0px;
+}
+
+.why-choose__item--cacaoo {
+  background-image: url(../img/cacaoo.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 72px;
+}
+
+.why-choose__item--price {
+  background-image: url(../img/price.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 72px;
+}
+
+.why-choose__item--truck {
+  background-image: url(../img/truck.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 72px;
+}
+
+.why-choose__list-title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 200px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.why-choose__item-discription {
+  line-height: 26px;
+  margin-top: 24px;
+  text-align: center;
+  margin-bottom: 48px;
+  color: #fefcf7;
+  width: 255px;
+  margin-left: 47px;
+}
+
+@media screen and (max-width: $tablet) {
+  .why-choose__container {
+    text-align: left;
+  }
+
+  .why-choose__container::before {
+    width: 688px;
+    height: 573px;
+  }
+
+  .why-choose__name {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .why-choose__discription {
+    font-size: 15px;
+    line-height: 25px;
+    width: 540px;
+    margin-left: 70px;
+  }
+
+  .why-choose__list {
+    flex-direction: column;
+    text-align: left;
+    width: 575px;
+    padding: 0;
+    margin: 0px;
+    padding: 57px;
+  }
+
+  .why-choose__item {
+    width: 573px;
+    padding: 31px 38px 31px 180px;
+    margin: 0px;
+    margin-bottom: 24px;
+  }
+
+  .why-choose__item--shape {
+    background-position-x: 70px;
+    background-position-y: center;
+  }
+
+  .why-choose__item--sovga {
+    background-position-x: 70px;
+    background-position-y: center;
+  }
+
+  .why-choose__item--car {
+    background-position-x: 70px;
+    background-position-y: center;
+  }
+
+  .why-choose__list-title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    margin: 0px;
+  }
+
+  .why-choose__item-discription {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 0px;
+    width: 314px;
+    margin: 0px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .why-choose__container {
+    text-align: center;
+    padding-right: 15px;
+  }
+
+  .why-choose__container::before {
+    width: 327px;
+    height: 902px;
+  }
+
+  .why-choose__name {
+    text-align: center;
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .why-choose__discription {
+    font-size: 15px;
+    line-height: 26px;
+    width: 279px;
+    text-align: center;
+    margin: 20px;
+  }
+
+  .why-choose__list {
+    flex-direction: column;
+    width: 327px;
+    padding: 0;
+    text-align: center;
+    margin: 0px;
+  }
+
+  .why-choose__item {
+    background-position-x: center;
+    background-position-y: 72px;
+    width: 279px;
+    padding: 0px;
+    padding-left: 35px;
+    padding-top: 200px;
+    text-align: center;
+    padding-bottom: 48px;
+  }
+
+  .why-choose__list-title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .why-choose__item-discription {
+    font-size: 15px;
+    line-height: 25px;
+    width: 212px;
+    text-align: center;
+  }
+}

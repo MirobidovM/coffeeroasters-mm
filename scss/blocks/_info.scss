@@ -1,0 +1,77 @@
+.info__conrainer {
+  padding-left: 85px;
+  padding-top: 120px;
+}
+
+.info__name {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 72px;
+}
+
+.info__list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1016;
+  padding: 0px;
+}
+
+.info__item {
+  width: 272px;
+  margin-right: 125px;
+  margin-bottom: 30px;
+  padding-bottom: 138px;
+}
+
+.info__item:nth-child(3n),
+.info__item:last-child {
+  margin-right: 0px;
+}
+
+.info__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.info__discription {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  width: 110px;
+  color: #333d4b;
+}
+
+.info__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+
+.info__item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info__item-item {
+  color: #333d4b;
+}
