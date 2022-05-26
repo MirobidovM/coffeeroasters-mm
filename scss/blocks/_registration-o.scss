@@ -1,0 +1,22 @@
+.registration-o__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.registration-o__title {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 20px;
+}
+
+.registration-o__btn {
+  outline: none;
+  border: none;
+}
