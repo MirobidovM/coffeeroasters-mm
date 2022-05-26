@@ -1,0 +1,44 @@
+body {
+  color: #fff;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/bgc-imgg.jpg);
+  font-family: sans-serif;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+table {
+  margin-top: 230px;
+  width: 50%;
+  border: solid #f00;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+.download-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.download {
+  margin-top: 30px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  padding: 10px 15px;
+  border: 2px solid #f00;
+  transition: 0.3s ease;
+}
+
+.download:hover {
+  opacity: 0.6;
+}

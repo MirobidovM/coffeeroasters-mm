@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' sans-serif;
+}
+html,
+body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #091921;
+
+}
+.wrapper{
+    height: 100px;
+    width: 360px;
+    cursor: default;
+    background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    border-radius: 10px;
+    animation: animate 1.5s linear infinite;
+}
+.wrapper .display,
+.wrapper span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper .display{
+    z-index: 999;
+    height: 85px;
+    width: 345px;
+    background-color: #020202;
+    border-radius: 6px;
+    text-align: center;
+
+}
+.wrapper .display #time {
+    line-height: 85px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #14ffe9,#ddeb3b,#ff00e0);
+    -webkit-background-clip: text;
+    -webkit-text-size-color: transparent;
+    animation: animate 1.5s linear infinite;
+    
+}
+@keyframes animate{
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.wrapper span{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background: inherit;
+}
+.wrapper span:first-child{
+    filter: blur(7px);
+}
+.wrapper span:last-child{
+    filter: blur(20px);
+}
+.button{
+    display: inline-block;
+    color: aqua;
+    text-decoration: none;
+    padding: 20px 50px;
+    border: 3px solid
+    #3c67e3;
+    border-radius: 10px;
+}
+
+.button:hover{
+    animation: pulsate 1s
+    ease-in-out;
+}
+@keyframes pulsate {
+    0%{
+        box-shadow:
+        0 0 25px #5ddcff,
+        0 0 50px #4e00c2;
+
+    }
+ 
+}
+.ionicon{
+    width: 50px;
+    height: 50px;
+    color: red;
+}

@@ -10,3 +10,15 @@
 .social__link:active {
   opacity: 0.4;
 }
+
+@media screen and (max-width: $tablet) {
+  .social {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .social__link:first-child {
+    margin-left: 0;
+  }
+}

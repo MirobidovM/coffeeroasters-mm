@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <h1 class="sign-up">Sign up</h1>
+    <div class="wrap">
+      <form>
+        <label for="name">Ваше имя:</label>
+        <input type="text" name="name" placeholder="Ваше имя" id="name" />
+        <br />
+        <br />
+        <br />
+
+        <label for="number">Ваш номер:</label>
+        <input
+          type="number"
+          name="number"
+          placeholder="Ваш номер"
+          id="number"
+        />
+        <br />
+        <br />
+        <br />
+
+        <label for="email">Ваш E-mail:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Введите E-mail"
+          id="email"
+        />
+        <br /><br />
+        <br />
+
+        <label for="password">Ваш пароль:</label>
+        <input
+          type="password"
+          maxlength="8"
+          name="password"
+          placeholder="Введите пароль"
+          id="password"
+        />
+        <br /><br />
+        <br />
+
+        <label for="password_2">Повторите пароль:</label>
+        <input
+          type="password"
+          maxlength="8"
+          name="password_2"
+          placeholder="Повторите пароль"
+          id="password_2"
+        />
+        <br /><br />
+        <br />
+
+        <label for="bio"> О себе:</label>
+        <textarea name="bio" id="bio" cols="40" rows="10"></textarea>
+        <br />
+        <br />
+        <br />
+
+        <input type="submit" name="submit" id="submit" />
+      </form>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>

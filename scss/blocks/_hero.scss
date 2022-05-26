@@ -9,14 +9,15 @@
   font-family: "Fraunces";
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 48px;
   color: #fefcf7;
-  margin: 0px;
+  margin: 0;
 }
 
 .hero__discription {
   line-height: 26px;
+  font-size: 17px;
   width: 445px;
   margin: 0px;
   margin-top: 24px;
@@ -30,6 +31,6 @@
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
   .hero__container {
-    background-image: url(../../img/about@2x.jpg);
+    background-image: url(../img/about@2x.jpg);
   }
 }

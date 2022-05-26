@@ -39,7 +39,7 @@
 .why-choose__list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   list-style: none;
   padding: 0px;
   margin: 0px;
@@ -147,6 +147,21 @@
     margin-bottom: 24px;
   }
 
+  .why-choose__item--cacaoo {
+    background-position-x: 60px;
+    background-position-y: 60px;
+  }
+
+  .why-choose__item--price {
+    background-position-x: 60px;
+    background-position-y: 60px;
+  }
+
+  .why-choose__item--truck {
+    background-position-x: 60px;
+    background-position-y: 60px;
+  }
+
   .why-choose__item--shape {
     background-position-x: 70px;
     background-position-y: center;
@@ -195,6 +210,7 @@
     text-align: center;
     font-size: 28px;
     line-height: 28px;
+    margin-left: 25px;
   }
 
   .why-choose__discription {
@@ -216,7 +232,7 @@
   .why-choose__item {
     background-position-x: center;
     background-position-y: 72px;
-    width: 279px;
+    width: 100%;
     padding: 0px;
     padding-left: 35px;
     padding-top: 200px;
@@ -228,11 +244,13 @@
     font-size: 24px;
     line-height: 32px;
     text-align: center;
+    margin-right: 30px;
   }
 
   .why-choose__item-discription {
     font-size: 15px;
     line-height: 25px;
+    margin-left: 25px;
     width: 212px;
     text-align: center;
   }

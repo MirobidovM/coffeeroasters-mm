@@ -180,10 +180,12 @@
   .how-it__name {
     margin: 0px;
     margin-bottom: 80px;
+    margin-left: 50px;
   }
 
   .how-it__list {
     flex-direction: column;
+    align-items: center;
     width: 327px;
     margin-top: 80px;
     padding: 0px;
